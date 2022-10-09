@@ -221,7 +221,7 @@ def echo(param):
     res += i + ' '
   print(res)
 
-def sh():
+def start():
   while True:
     try:
       readcmd()
@@ -230,5 +230,3 @@ def sh():
     except EOFError:
       print('\nexit')
       break
-
-sh()
