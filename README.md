@@ -18,6 +18,7 @@ Shell runs under MicroPython
 + `&` background task
 + `\` backslash new line
 + Directly run scripts under current work directory
++ `>` and `>>` redirect for builtin command
 
 ## Usage
 ```
